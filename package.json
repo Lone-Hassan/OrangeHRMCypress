@@ -1,0 +1,14 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "Test Automation Project for WebApp OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Lone",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.3"
+  }
+}
