@@ -1,0 +1,20 @@
+{
+    "credentials":{
+        "valid":{
+            "username":"Admin",
+            "password":"admin123"
+        },
+        "Invalid":[{
+            "username":"Admin",
+            "password":"admin"
+        },
+        {
+            "username":"admin",
+            "password":"admin123"
+        },{
+            "username":"admin",
+            "password":"admin"
+        }
+        ]
+    }
+}
