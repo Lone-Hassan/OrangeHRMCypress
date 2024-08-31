@@ -7,6 +7,9 @@ module.exports = defineConfig({
       
       require('cypress-mochawesome-reporter/plugin')(on);
     },
+    env:{
+      url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    },
     video: true, // Ensure video recording is enabled
     videoUploadOnPasses: false, // Ensures that videos are saved even if tests pass
     reporter: 'cypress-mochawesome-reporter',
@@ -18,8 +21,7 @@ module.exports = defineConfig({
       saveAllAttempts: false,
     },
     specPattern:'cypress/integration/Tests/*.js',
-    //screenshotOnRunFailure: true, // Take screenshots on test failure
-    //screenshotsFolder: 'cypress/screenshots', // Directory to save screenshots
+    
     
   },
 });
