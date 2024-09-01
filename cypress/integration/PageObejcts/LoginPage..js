@@ -14,5 +14,9 @@ getloginBtn(){
 getErrorMsg(){
     return cy.get(".oxd-alert.oxd-alert--error")
 }
+getForgotPassword(){
+    //return cy.get(".orangehrm-login-forgot").contains("Forgot your password? ")
+    return cy.contains("Forgot your password? ")
+}
 }
 export default LoginPage

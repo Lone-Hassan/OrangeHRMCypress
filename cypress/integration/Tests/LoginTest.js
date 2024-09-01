@@ -34,9 +34,13 @@ describe("Login Page Tests", () => {
             LP.getErrorMsg().should("be.visible").and("contain","Invalid credentials")
             cy.url().should("include","login")
         })
-
-
     })
+
+    it("ForgotPassword",function(){
+        LP.getForgotPassword().click()
+        cy.url().should("include","requestPasswordResetCode")
+    })
+
 
 
 })
